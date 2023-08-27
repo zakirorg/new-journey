@@ -1,0 +1,251 @@
+/* Common CSS start */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.sectionContainer{
+    width: 160rem;
+    margin: 0 auto;
+    background-color: #F15B22;
+}
+/* Common CSS End */
+/* Banner Start */
+
+.banner{
+    background-image: url('../images/banner/banner1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 21.6rem;
+    padding-bottom: 16.6rem;
+}
+.bannerContent{
+    margin-left: 98.5rem;
+    margin-right: 23rem;
+    text-align: right;
+}
+.bannerContent h1{
+    font-size: 6.5rem;
+    font-weight: 700;
+    color: #151414;
+}
+.bannerContent p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: #444343;
+    margin-top: 2.4rem;
+    margin-bottom: 3.2rem;
+}
+.bannerContent button{
+    width: 16rem;
+    outline: none;
+    border: none;
+    background-color: #F15B22;
+    border-radius: 1rem;
+}
+.bannerContent button a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 2rem;
+}
+/* Banner End */
+/* failures start */
+.failureContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 14rem 0rem;
+}
+.failureItem{
+    flex-basis: 51.6rem;
+}
+.itemOne{
+    margin-left: 22.8rem;
+}
+.itemTwo{
+    margin-right: 20rem;
+}
+.failureItem img{
+    width: 100%;
+}
+.failureItem h3{
+    font-size: 4rem;
+    font-weight: 700;
+    width: 28.8rem;
+    color: #151414;
+}
+.failureItem p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: 400;
+    line-height: 2.6rem;
+    color: #444343;
+    margin-top: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+.failureItem ul li{
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #444343;
+    line-height: 2.6rem;
+}
+/* failures end */
+/* Plan Start */
+.myPlans{
+    width: 114rem;
+    margin: 0 auto;
+}
+.myPlans .planHeader{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 5.5rem;
+}
+.planContainer{
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    margin-bottom: 13.5rem;
+}
+.planItem{
+    text-align: center;
+}
+.planItem img
+{
+    width: 9.2rem;
+}
+.planItem h4{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #151414;
+    margin: 1.6rem 0rem;
+}
+.planItem p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #737272;
+}
+/* Plan end */
+/* Ads Start */
+.ads{
+    width: 114rem;
+    margin: 0 auto;
+    background-image: url('../images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5.9rem 0rem 5.9rem 6.4rem;
+    position: relative;
+    z-index: -8;
+    border-radius: 1rem;
+}
+.ads::before{
+    content: url('../images/gradient3.png');
+    opacity: 1;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -9;
+}
+.adsContent{
+    z-index: 11111;
+}
+.adsContent h4{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    width: 46rem;
+    margin-bottom: 3.2rem;
+}
+.adsContent button{
+    width: 16rem;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.adsContent button a{
+    text-decoration: none;
+    color: #F15B22;
+    display: inline-block;
+    padding: 2rem;
+}
+/* Ads end */
+footer{
+    margin-top: 13rem;
+    box-sizing: border-box;
+    padding: 13rem 23rem;
+    background-color: #151414;
+}
+.footerContainer{
+    width: 114rem;
+    margin: 0 auto;
+}
+.footerContainer{
+    display: flex;
+    gap: 33rem;
+}
+.bigheader{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.footerItem p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #fff;
+    width: 48.5rem;
+}
+.footerItem p:nth-child(3){
+    margin: 1.6rem 0rem;
+}
+.footerIcons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.footerItem .sm{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+form input{
+    display: block;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 2.1rem 0rem 2.1rem 2.1rem;
+    width: 32rem;
+    border-radius: 1rem;
+    outline: 0;
+    border: 0;
+    margin-top: 3.1rem;
+    margin-bottom: 1.8rem;
+}
+.footerItem button{
+    width: 16rem;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.footerItem button a{
+    text-decoration: none;
+    color: #F15B22;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 2rem;
+}
